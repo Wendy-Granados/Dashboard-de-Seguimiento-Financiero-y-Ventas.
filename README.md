@@ -104,7 +104,7 @@ La integración de estas tablas permite relacionar las operaciones de venta con 
 
 ---
 
-# 01. Proceso de análisis de datos
+## 01. Proceso de análisis de datos
 
 El desarrollo del dashboard contempla las siguientes etapas:
 
@@ -130,7 +130,7 @@ ANÁLISIS E INSIGHTS
 
 ---
 
-# 02. Perfilamiento inicial de los datos
+## 02. Perfilamiento inicial de los datos
 
 Se realizó una revisión inicial de las fuentes de información para conocer su estructura y verificar que los campos fueran adecuados para el análisis.
 
@@ -150,9 +150,9 @@ Se revisaron principalmente:
 
 ---
 
-# 03. Limpieza y transformación
+## 03. Limpieza y transformación
 
-## 3.1 Tipos de datos
+### 3.1 Tipos de datos
 
 Se revisaron los tipos de datos para garantizar que los campos pudieran utilizarse correctamente durante el modelado y la creación de métricas.
 
@@ -171,7 +171,7 @@ La correcta definición de los tipos de datos permite realizar operaciones matem
 
 ---
 
-## 3.2 Valores nulos y vacíos
+### 3.2 Valores nulos y vacíos
 
 Se revisaron los valores nulos y vacíos presentes en las diferentes columnas.
 
@@ -181,7 +181,7 @@ Los identificadores de productos, tiendas y fechas requieren especial atención 
 
 ---
 
-## 3.3 Estandarización de nombres
+### 3.3 Estandarización de nombres
 
 Se revisaron y estandarizaron los nombres de los campos para facilitar su identificación y utilización durante el modelado y desarrollo de medidas.
 
@@ -189,7 +189,7 @@ Se utilizaron nombres descriptivos y consistentes para facilitar el mantenimient
 
 ---
 
-## 3.4 Valores inconsistentes
+### 3.4 Valores inconsistentes
 
 Se revisaron los campos categóricos para detectar posibles diferencias de escritura, espacios, formatos o valores inconsistentes que pudieran afectar:
 
@@ -200,7 +200,7 @@ Se revisaron los campos categóricos para detectar posibles diferencias de escri
 - Cálculos.
 - ---
 
-# 04. Requerimientos de negocio
+## 04. Requerimientos de negocio
 
 Los requerimientos del dashboard se enfocaron en proporcionar una visión consolidada del desempeño comercial y financiero.
 
@@ -214,7 +214,7 @@ Los requerimientos del dashboard se enfocaron en proporcionar una visión consol
 | Volumen comercial | Total de pedidos |
 | Seguimiento financiero | Comisiones |
 
-## Preguntas de negocio
+### Preguntas de negocio
 
 El dashboard permite responder preguntas como:
 
@@ -228,14 +228,14 @@ El dashboard permite responder preguntas como:
 - ¿Qué monto de comisiones se ha generado?
 ---
 
-# 05. Modelo de datos
+## 05. Modelo de datos
 
 El modelo está compuesto por tres tablas principales:
 
 <img width="877" height="429" alt="image" src="https://github.com/user-attachments/assets/701d6d73-a70c-4bcc-84c8-91b03251e086" />
 
 
-# 06. Métricas y KPIs
+## 06. Métricas y KPIs
 
 El dashboard contempla indicadores orientados al seguimiento comercial y financiero.
 
@@ -266,7 +266,7 @@ Producto
 Permite seleccionar la participación de los diferentes productos dentro de las ventas.
 
 
-# 07. Análisis y visualizaciones
+## 07. Análisis y visualizaciones
 
 El dashboard integra diferentes visualizaciones para facilitar el análisis de la información.
 
@@ -313,7 +313,7 @@ Longitud.
 
 Estos campos permiten incorporar una dimensión geográfica al análisis cuando se requiera.
 
-08. Validación
+## 08. Validación
 
 Los resultados obtenidos mediante las métricas y visualizaciones deben ser contrastados con los registros de origen para verificar que los cálculos y agrupaciones correspondan con la información disponible.
 
@@ -341,7 +341,7 @@ Facturación mensual	Coincide con origen	Pendiente	⬜
 Una vez realizadas las comprobaciones finales, esta tabla podrá completarse con los resultados reales.
 
 
-# 09. Resultados e insights
+## 09. Resultados e insights
 
 El dashboard permite transformar los registros de pedidos en información útil para el seguimiento del desempeño comercial.
 
@@ -359,7 +359,7 @@ Consulta de las comisiones asociadas a las operaciones.
 
 Los resultados cuantitativos finales se incorporarán una vez concluida la validación de las métricas.
 
-# 10. Limitaciones
+## 10. Limitaciones
 
 La calidad y precisión del análisis dependen de la información disponible en las fuentes de origen.
 
@@ -373,7 +373,7 @@ La información disponible determina el nivel de detalle que puede analizarse.
 
 El dashboard representa la información disponible en las fuentes utilizadas para el proyecto.
 
-# 11. Mejoras futuras
+## 11. Mejoras futuras
 
 Como posibles mejoras se consideran:
 
@@ -389,7 +389,7 @@ Alertas para variaciones relevantes.
 Integración con nuevas fuentes de información.
 Automatización completa del proceso ETL.
 
-# 12. Tecnologías
+## 12. Tecnologías
 Power BI
 Power Query
 DAX
