@@ -239,30 +239,29 @@ El modelo está compuesto por tres tablas principales:
 
 El dashboard contempla indicadores orientados al seguimiento comercial y financiero.
 
-Facturación
+### Facturación
 
 Permite conocer el importe total generado por las operaciones de venta.
 
-Facturación por período
+### Facturación por período
 
 Permite analizar el comportamiento de la facturación a través del tiempo, principalmente mediante una visualización mensual.
 
-Tabla de visualización de Facturación por tienda y su %
+### Tabla de visualización de Facturación por tienda y su %
 
 Permite comparar el desempeño de las diferentes tiendas e identificar aquellas con mayor volumen de ventas.
 
-Total de pedidos
+### Total de pedidos
 
 Permite conocer el volumen de pedidos registrados durante el período analizado.
 
-Comisiones
+### Comisiones
 
 Permite realizar seguimiento a las comisiones asociadas a las operaciones comerciales.
 
-
 ### Filtros 
 
-Producto
+#### Producto
 Permite seleccionar la participación de los diferentes productos dentro de las ventas.
 
 
@@ -270,46 +269,46 @@ Permite seleccionar la participación de los diferentes productos dentro de las 
 
 El dashboard integra diferentes visualizaciones para facilitar el análisis de la información.
 
-Ventas por tienda
+### Ventas por tienda
 
 La visualización permite comparar el desempeño de las tiendas y detectar diferencias en el volumen de ventas.
 
-Ventas por producto
+### Ventas por producto
 
 Permite identificar los productos que presentan mayor participación dentro de las ventas.
 
-Facturación mensual
+### Facturación mensual
 
 La evolución de la facturación se representa mediante una gráfica por período, permitiendo observar variaciones y tendencias en el comportamiento comercial.
 
-Tabla de facturación
+### Tabla de facturación
 
 Se incorpora una tabla para complementar las visualizaciones y permitir una consulta más detallada de la información.
 
-Participación porcentual
+### Participación porcentual
 
 Se presentan indicadores de participación para analizar el porcentaje de facturación correspondiente a:
 
-Tiendas.
-Productos.
-Pedidos
+-Tiendas.
+-Productos.
+-Pedidos
 
 Se incorpora información relacionada con el total de pedidos para dimensionar el volumen de operaciones.
 
-Comisiones
+### Comisiones
 
 Se presenta información de las comisiones asociadas a las operaciones comerciales.
 
 El campo Link permite conservar una referencia directa relacionada con el producto.
 
-Información geográfica
+### Información geográfica
 
 La tabla de tiendas contiene:
 
-Ciudad.
-Estado.
-Latitud.
-Longitud.
+-Ciudad.
+-Estado.
+-Latitud.
+-Longitud.
 
 Estos campos permiten incorporar una dimensión geográfica al análisis cuando se requiera.
 
@@ -319,27 +318,16 @@ Los resultados obtenidos mediante las métricas y visualizaciones deben ser cont
 
 La validación contempla principalmente:
 
-Total de ventas.
-Número de pedidos.
-Facturación.
-Ventas por tienda.
-Ventas por producto.
-Participación porcentual.
-Información de las tiendas.
-Información de los productos.
-
-Casos de validación
-Caso	Resultado esperado	Resultado Power BI	Validación
-Total de ventas	Coincide con origen	Pendiente	⬜
-Total de pedidos	Coincide con origen	Pendiente	⬜
-Ventas por tienda	Coincide con origen	Pendiente	⬜
-Ventas por producto	Coincide con origen	Pendiente	⬜
-Facturación mensual	Coincide con origen	Pendiente	⬜
-% por tienda	Cálculo correcto	Pendiente	⬜
-% por producto	Cálculo correcto	Pendiente	⬜
+-Total de ventas.
+-Número de pedidos.
+-Facturación.
+-Ventas por tienda.
+-Ventas por producto.
+-Participación porcentual.
+-Información de las tiendas.
+-Información de los productos.
 
 Una vez realizadas las comprobaciones finales, esta tabla podrá completarse con los resultados reales.
-
 
 ## 09. Resultados e insights
 
@@ -349,13 +337,13 @@ El dashboard permite transformar los registros de pedidos en información útil 
 
 Entre los principales análisis que permite realizar se encuentran:
 
-Identificación de tiendas con mayor volumen de ventas.
-Identificación de productos con mayor participación.
-Seguimiento de la evolución mensual de la facturación.
-Análisis de la contribución porcentual de tiendas.
-Análisis de la contribución porcentual de productos.
-Seguimiento del volumen de pedidos.
-Consulta de las comisiones asociadas a las operaciones.
+-Identificación de tiendas con mayor volumen de ventas.
+-Identificación de productos con mayor participación.
+-Seguimiento de la evolución mensual de la facturación.
+-Análisis de la contribución porcentual de tiendas.
+-Análisis de la contribución porcentual de productos.
+-Seguimiento del volumen de pedidos.
+-Consulta de las comisiones asociadas a las operaciones.
 
 Los resultados cuantitativos finales se incorporarán una vez concluida la validación de las métricas.
 
@@ -365,11 +353,11 @@ La calidad y precisión del análisis dependen de la información disponible en 
 
 Entre las principales consideraciones se encuentran:
 
-Los resultados dependen de la calidad de los registros de pedidos.
-Los identificadores de productos y tiendas deben mantenerse consistentes para garantizar las relaciones.
-Los valores faltantes pueden afectar determinados análisis.
-Las métricas dependen de la correcta definición de las reglas de cálculo.
-La información disponible determina el nivel de detalle que puede analizarse.
+-Los resultados dependen de la calidad de los registros de pedidos.
+-Los identificadores de productos y tiendas deben mantenerse consistentes para garantizar las relaciones.
+-Los valores faltantes pueden afectar determinados análisis.
+-Las métricas dependen de la correcta definición de las reglas de cálculo.
+-La información disponible determina el nivel de detalle que puede analizarse.
 
 El dashboard representa la información disponible en las fuentes utilizadas para el proyecto.
 
@@ -377,29 +365,29 @@ El dashboard representa la información disponible en las fuentes utilizadas par
 
 Como posibles mejoras se consideran:
 
-Automatización de la actualización de datos.
-Incorporación de históricos de ventas.
-Comparación contra períodos anteriores.
-Indicadores de crecimiento.
-Variación porcentual mensual.
-Análisis de tendencias.
-Incorporación de objetivos y cumplimiento.
-Análisis geográfico de ventas.
-Alertas para variaciones relevantes.
-Integración con nuevas fuentes de información.
-Automatización completa del proceso ETL.
+-Automatización de la actualización de datos.
+-Incorporación de históricos de ventas.
+-Comparación contra períodos anteriores.
+-Indicadores de crecimiento.
+-Variación porcentual mensual.
+-Análisis de tendencias.
+-Incorporación de objetivos y cumplimiento.
+-Análisis geográfico de ventas.
+-Alertas para variaciones relevantes.
+-Integración con nuevas fuentes de información.
+-Automatización completa del proceso ETL.
 
 ## 12. Tecnologías
-Power BI
-Power Query
-DAX
-Modelado de datos
-ETL
-Análisis de ventas
-Análisis financiero
-KPIs
-Visualización de datos
-Business Intelligence
+-Power BI
+-Power Query
+-DAX
+-Modelado de datos
+-ETL
+-Análisis de ventas
+-Análisis financiero
+-KPIs
+-Visualización de datos
+-Business Intelligence
 
 
 
